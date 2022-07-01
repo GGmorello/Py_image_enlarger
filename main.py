@@ -9,7 +9,7 @@ logging.basicConfig(filename='log.txt',
                     filemode='a',
                     format='%(asctime)s,%(msecs)d %(levelname)s %(message)s',
                     datefmt='%H:%M:%S',
-                    level=logging.INFO) # Metti DEBUG al posto di INFO se vuoi avere tutte le informazioni
+                    level=logging.INFO) # Set DEBUG instead of INFO for additional logging data
 
 
 
